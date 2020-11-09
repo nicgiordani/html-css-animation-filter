@@ -92,10 +92,58 @@
 }
 /* esercizio 5 */
 .ex-5-square:hover {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% -50%);
-  width: 90px;
-  height: 90px;
+  margin: 0px;
+  width: 100px;
+  height: 100px;
+  transition: ease-in-out 0.5s;
+}
+.ex-5-square:active {
+  margin: 25px;
+  width: 50px;
+  height: 50px;
+  transition: ease-in-out 0.5s;
+}
+/* esercizio 6 */
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+/* esercizio 7 */
+.ex-7-img:hover {
+  filter: sepia(0.6);
   transition: ease-in-out 1s;
 }
+/* esercizio 8 */
+.ex-8-img:hover {
+  filter: grayscale(0.5);
+  filter: sepia(0.6);
+  border-radius: 20px;
+  transition: ease-in-out 1s;
+}
+/* esercizio 9 */
+.ex-9-img:hover {
+  margin: 0px 0px;
+  width: 600px;
+  transition: ease-in-out 1.5s;
+  border-radius: 40px;
+  filter: grayscale(0.5);
+  filter: sepia(0.6);
+}
+/* esercizio 10 */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/* esercizio 11 */
+.ex-11-icon:hover {
+    animation: spin 2s;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+/* esercizio 12 */
